@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Details</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+
+<!-- Header Placeholder -->
+<div id="header"></div>
+
+  <main>
+  <div class="booklist-main">
+
+    <!-- LEFT: Book Details -->
+    <div class="booklist-left">
+      <div class="user-journey">
+        <strong>Your Journey</strong> &gt; <a href="browse.html" class="breadcrumb-link">Genre</a> &gt; <a href="booklist.html" class="breadcrumb-link">Business</a> &gt; Book Details
+    </div>
+      <h2 class="booklist-heading">Book Details</h2>
+
+  <!-- MAIN CONTENT -->
+<main class="book-details-container">
+  <div class="book-details-main">
+    <div class="book-details-left">
+      <img src="../assets/habits.png" alt="Book Cover" class="book-details-image">
+    </div>
+    <div class="book-details-right">
+      <div class="book-details-title-bar">
+        <h1>The 7 Habits of Highly Effective People</h1>
+      </div>
+      <div class="book-details-info">
+        <p><strong>Author:</strong> Stephen R. Covey</p>
+        <p><strong>Year:</strong> 2000 | English</p>
+        <a href="#" class="preview-button">Preview eBook</a>
+      </div>
+      <div class="book-details-description">
+        <h3>Description</h3>
+        <p>This beloved classic presents a principle-centered approach for solving both personal and professional problems. With penetrating insights and practical anecdotes, Stephen R. Covey reveals a step-by-step pathway for living with fairness, integrity, honesty, and human dignity—principles that give us the security to adapt to change and the wisdom and power to take advantage of the opportunities that change creates.</p>
+        <a href="#" class="borrow-button">Borrow Now</a>
+      </div>
+      <div class="book-details-meta">
+        <p><strong>Available Copies:</strong> 5</p>
+        <p><strong>Rating:</strong> ★★★★★</p>
+      </div>
+    </div>
+  </div>
+  <section class="related-reads-section">
+    <h2 class="section-heading-blue">Related Reads</h2>
+    <div class="related-reads-grid">
+      <a href="../pages/bookdetails-money.html" class="related-read-link">
+        <div class="related-read-card">
+          <img src="../assets/money.png" alt="Related Book 1">
+          <h3 class="book-title">The Psychology of Money</h3>
+          <p>Morgan Housel</p>
+        </div>
+      </a>
+      <a href="../pages/bookdetails-5am.html" class="related-read-link">
+        <div class="related-read-card">
+          <img src="../assets/5am.png" alt="Related Book 2">
+          <h3 class="book-title">The 5AM Club</h3>
+          <p>Robin Sharma</p>
+        </div>
+      </a>
+      <a href="../pages/bookdetails-let-them.html" class="related-read-link">
+        <div class="related-read-card">
+          <img src="../assets/let-them.png" alt="Related Book 3">
+          <h3 class="book-title">The Let Them Theory</h3>
+          <p>Mel Robbins</p>
+        </div>
+      </a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(function () {
+    $("#header").load("../header.html");
+    $("#footer").load("../footer.html");
+  });
+</script>
+  </section>
+</main>
+
+ 
+<!-- Footer Placeholder -->
+<div id="footer"></div>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Details</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+
+ <!-- Header Placeholder -->
+<div id="header"></div>
+
+  <main>
+  <div class="booklist-main">
+
+    <!-- LEFT: Book Details -->
+    <div class="booklist-left">
+      <div class="user-journey">
+        <strong>Your Journey</strong> &gt; <a href="browse.html" class="breadcrumb-link">Genre</a> &gt; <a href="booklist.html" class="breadcrumb-link">Business</a> &gt; Book Details
+    </div>
+      <h2 class="booklist-heading">Book Details</h2>
+
+  <!-- MAIN CONTENT -->
+<main class="book-details-container">
+  <div class="book-details-main">
+    <div class="book-details-left">
+      <img src="../assets/5am.png" alt="Book Cover" class="book-details-image">
+    </div>
+    <div class="book-details-right">
+      <div class="book-details-title-bar">
+        <h1>The 5am Club</h1>
+      </div>
+      <div class="book-details-info">
+        <p><strong>Author:</strong> Robin Sharma</p>
+        <p><strong>Year:</strong> 2018 | English</p>
+        <a href="#" class="preview-button">Preview eBook</a>
+      </div>
+      <div class="book-details-description">
+        <h3>Description</h3>
+        <p>Legendary leadership and elite performance expert Robin Sharma introduced The 5am Club concept over twenty years ago, based on a revolutionary morning routine that has helped his clients maximize their productivity, activate their best health and bulletproof their serenity in this age of overwhelming complexity.
+
+Now, in this life-changing book, handcrafted by the author over a rigorous four-year period, you will discover the early-rising habit that has helped so many accomplish epic results while upgrading their happiness, helpfulness and feelings of aliveness.</p>
+        <a href="#" class="borrow-button">Borrow Now</a>
+      </div>
+      <div class="book-details-meta">
+        <p><strong>Available Copies:</strong> 3</p>
+        <p><strong>Rating:</strong> ★★★★★</p>
+      </div>
+    </div>
+  </div>
+  <section class="related-reads-section">
+    <h2 class="section-heading-blue">Related Reads</h2>
+    <div class="related-reads-grid">
+      <a href="../pages/bookdetails-habits.html" class="related-read-link">
+        <div class="related-read-card">
+          <img src="../assets/habits.png" alt="Related Book 1">
+          <h3 class="book-title">The 7 Habits of Highly Effective People</h3>
+          <p>Stephen R. Covey</p>
+        </div>
+      </a>
+      <a href="../pages/bookdetails-money.html" class="related-read-link">
+        <div class="related-read-card">
+          <img src="../assets/money.png" alt="Related Book 2">
+          <h3 class="book-title">The Psychology of Money</h3>
+          <p>Morgan Housel</p>
+        </div>
+      </a>
+      <a href="../pages/bookdetails-let-them.html" class="related-read-link">
+        <div class="related-read-card">
+          <img src="../assets/let-them.png" alt="Related Book 3">
+          <h3 class="book-title">The Let Them Theory</h3>
+          <p>Mel Robbins</p>
+        </div>
+      </a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(function () {
+    $("#header").load("../header.html");
+    $("#footer").load("../footer.html");
+  });
+</script>
+  </section>
+</main>
+
+ <!-- Footer Placeholder -->
+<div id="footer"></div>

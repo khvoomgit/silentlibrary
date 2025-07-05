@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Browse Collections</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+
+<!-- Header Placeholder -->
+<div id="header"></div>
+
+  <!-- Main Content -->
+  <main class="collection-content">
+
+<!-- Genre Section -->
+  <section class="genre-section">
+  <h2 class="genre-heading">
+    <span class="text-blue">Your next adventure is just a tap away</span>
+    <span class="text-orange">—start exploring!</span>
+  </h2>
+
+  <div class="genre-rows">
+    <div class="genre-row left-align">
+      <button>Fantasy</button>
+      <button>Romance</button>
+      <button>Children</button>
+      <button>Mystery</button>
+      <button>Fiction</button>
+      <button>Travel</button>
+      <button>Thriller</button>
+    </div>
+    <div class="genre-row right-align">
+      <button>Biography</button>
+      <a href="./booklist.html" class="genre-button">Business</a>
+      <button>Literature</button>
+      <button>Technology</button>
+      <button>Non Fiction</button>
+      <button>Religion</button>
+      <button>History</button>
+    </div>
+  </div>
+</section>
+
+  <!-- Top 10 Popular Reads Today -->
+<section class="top-reads-section">
+  <h3 class="section-heading-blue">Top 10 Popular Reads Today</h3>
+  <div class="top-reads-grid">
+    <div class="top-read-card">
+      <a href="booklist.html">
+        <img src="../assets/money.png" alt="Book 1" class="feature-img">
+        <div class="book-rank">1</div>
+      </a>
+    </div>
+    <div class="top-read-card">
+       <a href="booklist.html">
+        <img src="../assets/warcraft.png" alt="Book 2" class="feature-img">
+        <div class="book-rank">2</div>
+      </a>
+    </div>
+    <div class="top-read-card">
+      <a href="booklist.html">
+        <img src="../assets/harry.png" alt="Book 3" class="feature-img">
+        <div class="book-rank">3</div>
+      </a>
+    </div>
+    <div class="top-read-card">
+      <a href="booklist.html">
+        <img src="../assets/elon.png" alt="Book 4" class="feature-img">
+        <div class="book-rank">4</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- New Arrivals -->
+  <section class="book-section">
+  <h3 class="section-heading-blue">Listen Up! New Arrivals</h3>
+  <div class="top-reads-grid">
+    <div class="top-read-card">
+      <a href="booklist.html">
+      <img src="../assets/forgery.png" alt="Book 5">
+    </a>
+  </div>
+    <div class="top-read-card">
+      <a href="booklist.html">
+      <img src="../assets/martyr.png" alt="Book 6">
+    </a>
+  </div>
+    <div class="top-read-card">
+      <a href="booklist.html">
+      <img src="../assets/lions.png" alt="Book 7">
+    </a>
+  </div>
+    <div class="top-read-card">
+      <a href="booklist.html">
+      <img src="../assets/woman.png" alt="Book 8">
+    </a>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(function () {
+    $("#header").load("../header.html");
+    $("#footer").load("../footer.html");
+  });
+</script>
+
+</section>
+
+</main>
+
+<!-- Footer Placeholder -->
+<div id="footer"></div>

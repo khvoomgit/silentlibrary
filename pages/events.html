@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Events & Promotions</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+
+<!-- Header Placeholder -->
+<div id="header"></div>
+
+<!-- Events Header -->
+<h2 class="events-header">Events and Promotions</h2>
+
+<!-- Events Content -->
+    <!-- Events Search -->
+<!-- Search Box Row -->
+    <div class="event-search-row">
+      <div class="search-column">
+        <input type="text" placeholder="Enter keyword" />
+        <span class="search-icon">&#128269;</span>
+      </div>
+      <div class="search-column">
+        <input type="date" placeholder="Browse on specific dates" />
+        <span class="search-icon">&#128269;</span>
+      </div>
+      <div class="search-column">
+        <select>
+          <option>Select type</option>
+          <option>Workshop</option>
+          <option>Talk</option>
+          <option>Seminar</option>
+        </select>
+        <span class="search-icon">&#128269;</span>
+      </div>
+    </div>
+
+    <!-- Sort Options -->
+    <div class="sort-options">
+      <span>Sort by</span>
+      <a href="#">Most Popular</a>
+      <a href="#">Happening in 7 Days</a>
+      <a href="#">Happening in 30 Days</a>
+    </div>
+
+    <!-- Event Cards -->
+    <div class="event-card-grid">
+      <div class="event-card">
+        <img src="../assets/electricity.png" alt="Exploring Electricity" />
+        <div class="event-meta">
+          <span class="event-type">Workshop</span>
+          <span class="event-date">18 Aug 2025</span>
+        </div>
+        <h3>Budding Scientist: Hands-on Experiment</h3>
+        <p class="event-description">Join us for an electrifying workshop where young scientists experiment with simple circuits and learn about electricity in a fun, hands-on way.</p>
+      </div>
+
+      <div class="event-card">
+        <img src="../assets/python-talk.png" alt="Python Talk" />
+        <div class="event-meta">
+          <span class="event-type">Talk</span>
+          <span class="event-date">30 Sep 2025</span>
+        </div>
+        <h3>Python – A First Look, My Digital Life</h3>
+        <p class="event-description">
+Curious about coding? This beginner-friendly talk introduces Python programming through fun examples and real-life digital applications.
+</p>
+      </div>
+
+      <div class="event-card">
+        <img src="../assets/robot.png" alt="Robot Workshop" />
+        <div class="event-meta">
+          <span class="event-type">Workshop</span>
+          <span class="event-date">10 Oct 2025</span>
+        </div>
+        <h3>Robots Starter Club – Obstacle Course</h3>
+        <p class="event-description">
+Build and guide your own mini robot through a challenge course! A hands-on workshop perfect for young robotics enthusiasts.
+</p>
+      </div>
+
+      <div class="event-card">
+        <img src="../assets/tech.png" alt="New Event" />
+        <div class="event-meta">
+          <span class="event-type">Talk</span>
+          <span class="event-date">25 Oct 2025</span>
+        </div>
+        <h3>Tech Careers for Teens</h3>
+        <p class="event-description">
+Discover exciting career paths in tech! Hear from industry pros about how to get started in programming, design, gaming, and more.
+</p>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(function () {
+    $("#header").load("../header.html");
+    $("#footer").load("../footer.html");
+  });
+</script>
+  </section>
+
+</body>
+</html>
+    
+<!-- Footer Placeholder -->
+<div id="footer"></div>
